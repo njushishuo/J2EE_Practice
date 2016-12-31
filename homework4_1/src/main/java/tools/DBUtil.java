@@ -1,46 +1,69 @@
 package tools;
-
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
 import javax.sql.DataSource;
 import java.sql.*;
+import java.util.Properties;
 
 public class DBUtil {
 
-    private static DataSource datasource;
+    private static DBUtil dbUtil ;
 
-    public static Connection getConnection() {
-
-//        Connection con = null;
-//        try {
-//            Context ic = new InitialContext();
-//            DataSource source = (DataSource) ic.lookup("java:comp/env/homework2Query");
-//            con = source.getConnection();
-//        } catch (NamingException e) {
-//            System.out.println("数据源没找到！");
-//            e.printStackTrace();
-//        } catch (SQLException e) {
-//            System.out.println("获取数连接对象失败！");
-//            e.printStackTrace();
-//        }
-//        return con;
+    private InitialContext jndiContext = null;
+    private Connection connection = null;
+    private DataSource datasource = null;
 
 
-        String driver = "com.mysql.jdbc.Driver";
-        String url = "jdbc:mysql://localhost:3306/homework2";
-        String username = "root";
-        String password = "root";
-        Connection conn = null;
+    private DBUtil()
+    {
         try {
-            Class.forName(driver); //classLoader,加载对应驱动
-            conn = (Connection) DriverManager.getConnection(url, username, password);
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
+            jndiContext = new InitialContext();
+            datasource = (DataSource) jndiContext.lookup("java:comp/env/jdbc/j2eehw");
+        } catch (NamingException e) {
+            // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        return conn;
+        System.out.println("got context");
     }
 
-    public static boolean closeAll(ResultSet rst, Statement stmt , Connection conn) {
+    public static DBUtil getDBUtilInstance()
+    {
+        if(dbUtil==null){
+            dbUtil = new DBUtil();
+        }
+        return dbUtil;
+    }
+
+    public  Connection getConnection() {
+
+
+        try {
+            connection = datasource.getConnection();
+        }catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+
+        return connection;
+
+//        String driver = "com.mysql.jdbc.Driver";
+//        String url = "jdbc:mysql://localhost:3306/homework2";
+//        String username = "root";
+//        String password = "root";
+//        Connection conn = null;
+//        try {
+//            Class.forName(driver); //classLoader,加载对应驱动
+//            conn = (Connection) DriverManager.getConnection(url, username, password);
+//        } catch (ClassNotFoundException e) {
+//            e.printStackTrace();
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+//        return conn;
+
+    }
+
+    public  boolean closeAll(ResultSet rst, Statement stmt , Connection conn) {
         // TODO 关闭所有连接
         boolean flag = false;
         try {

@@ -1,10 +1,12 @@
 package servlets;
 
-import Dao.GradeDao;
-import Dao.StudentDao;
+import factory.DaoFactory;
+import factory.ServiceFactory;
 import model.Exam;
 import model.Grade;
 import model.Student;
+import service.GradeService;
+import service.StudentService;
 import tools.AttrStrings;
 
 import javax.servlet.RequestDispatcher;
@@ -26,14 +28,14 @@ import java.util.List;
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-    private StudentDao studentDao;
-    private GradeDao gradeDao;
+    private StudentService studentService;
+    private GradeService gradeService;
 
     public LoginServlet() {
         super();
         // TODO Auto-generated constructor stub
-        studentDao = new StudentDao();
-        gradeDao = new GradeDao();
+        studentService = ServiceFactory.getStudentService();
+        gradeService = ServiceFactory.getGradeService();
     }
 
 
@@ -134,7 +136,7 @@ public class LoginServlet extends HttpServlet {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
 
-        if(!studentDao.exists(username)){
+        if(!studentService.exists(username)){
 
             RequestDispatcher dispatcher
                     =request.getRequestDispatcher("/html/error.html");
@@ -145,7 +147,7 @@ public class LoginServlet extends HttpServlet {
 
         }else{
 
-            Student student = studentDao.getStudentByUsername(username);
+            Student student = studentService.getStudentByUsername(username);
             //密码正确
             if(student.getPassword().equals(password)){
 
@@ -157,7 +159,7 @@ public class LoginServlet extends HttpServlet {
 
                 ServletContext context=request.getServletContext();
                 //有未参加的课程
-                List<Exam> unAttendedExams = gradeDao.getUnAttendedExamIds(student.getId());
+                List<Exam> unAttendedExams = gradeService.getUnAttendedExamIds(student.getId());
 
                 if(unAttendedExams.size()!=0){
 
@@ -166,7 +168,7 @@ public class LoginServlet extends HttpServlet {
 
                 }else{
 
-                    List<Grade> grades = gradeDao.getAllGrades(student.getId());
+                    List<Grade> grades = gradeService.getAllGrades(student.getId());
                     request.setAttribute("grades",grades);
                     context.getRequestDispatcher("/jsp/exams.jsp").forward(request, response);
                 }

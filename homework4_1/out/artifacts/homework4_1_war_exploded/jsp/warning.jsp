@@ -53,8 +53,8 @@
                         <tr>
                             <td><%= exam.getId()%></td>
                             <td><%= exam.getCourseName() %></td>
-                            <td><%= exam.getStart_at()%>></td>
-                            <td><%= exam.getEnd_at()%>></td>
+                            <td><%= exam.getStart_at()%></td>
+                            <td><%= exam.getEnd_at()%></td>
                         </tr>
                         <%}%>
                     </tbody>
