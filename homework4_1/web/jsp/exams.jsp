@@ -66,7 +66,7 @@
                 </table>
             </div>
         </div>
-        <a href="/Login">注销</a>
+        <a href="/Login" style="font-size: 40px" >注销</a>
     </div>
 </div>
 
