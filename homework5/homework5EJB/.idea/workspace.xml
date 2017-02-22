@@ -26,10 +26,13 @@
       <file leaf-file-name="GradeServiceBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/GradeServiceBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="499">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#377#378#0" expanded="false" />
+                <element signature="e#436#437#0" expanded="false" />
+                <element signature="e#490#491#0" expanded="false" />
+                <element signature="e#541#542#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -38,37 +41,54 @@
       <file leaf-file-name="GradeDaoBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dao/GradeDaoBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1031">
-              <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+            <state relative-caret-position="448">
+              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
               <folding>
-                <element signature="method#getUnAttendedExamIds#0;class#GradeDaoBean#0" expanded="true" />
-                <element signature="method#getAllGrades#0;class#GradeDaoBean#0" expanded="true" />
-                <marker date="1487351509775" expanded="true" signature="851:948" ph="select exam.... grade" />
-                <marker date="1487351509775" expanded="true" signature="1958:2031" ph="select * fro... grade" />
+                <element signature="imports" expanded="false" />
+                <element signature="method#getUnAttendedExamIds#0;class#GradeDaoBean#0" expanded="false" />
+                <element signature="method#getAllGrades#0;class#GradeDaoBean#0" expanded="false" />
+                <marker date="1487730801108" expanded="true" signature="849:946" ph="select exam.... grade" />
+                <marker date="1487730801108" expanded="true" signature="1955:2028" ph="select * fro... grade" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tools/DBUtil.java">
+      <file leaf-file-name="GradeService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/GradeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="42" column="71" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
-              <folding />
+            <state relative-caret-position="196">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jboss.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/META-INF/jboss.xml">
-          <provider editor-type-id="com.intellij.javaee.oss.jboss.editor.JBossEjbRootProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="DBUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tools/DBUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="-252">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="method#DBUtil#0;class#DBUtil#0" expanded="false" />
+                <element signature="method#getDBUtilInstance#0;class#DBUtil#0" expanded="false" />
+                <element signature="method#closeAll#0;class#DBUtil#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GradeDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/GradeDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,18 +109,11 @@
             <state relative-caret-position="336">
               <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#340#341#0" expanded="false" />
+                <element signature="e#390#391#0" expanded="false" />
+                <element signature="e#450#451#0" expanded="false" />
+                <element signature="e#514#515#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/StudentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -111,14 +124,7 @@
             <state relative-caret-position="336">
               <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding>
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -129,7 +135,25 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
               <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#319#320#0" expanded="false" />
+                <element signature="e#344#345#0" expanded="false" />
+                <element signature="e#377#378#0" expanded="false" />
+                <element signature="e#405#406#0" expanded="false" />
+                <element signature="e#442#443#0" expanded="false" />
+                <element signature="e#475#476#0" expanded="false" />
+                <element signature="e#527#528#0" expanded="false" />
+                <element signature="e#571#572#0" expanded="false" />
+                <element signature="e#609#610#0" expanded="false" />
+                <element signature="e#640#641#0" expanded="false" />
+                <element signature="e#691#692#0" expanded="false" />
+                <element signature="e#731#732#0" expanded="false" />
+                <element signature="e#767#768#0" expanded="false" />
+                <element signature="e#796#797#0" expanded="false" />
+                <element signature="e#843#844#0" expanded="false" />
+                <element signature="e#879#880#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,25 +163,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
               <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -181,12 +187,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/service/GradeServiceBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/StudentServiceBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/GradeDaoBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/GradeDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Grade.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Exam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/GradeDaoBean.java" />
       </list>
     </option>
   </component>
@@ -261,7 +267,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -464,6 +469,7 @@
       </pane>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -474,7 +480,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../homework6/homework6JPAEJB" />
     <property name="js-jscs-nodeInterpreter" value="D:\Programing\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
@@ -1083,14 +1089,15 @@
       <workItem from="1487347479279" duration="4929000" />
       <workItem from="1487386577584" duration="3244000" />
       <workItem from="1487594678704" duration="40000" />
+      <workItem from="1487730078295" duration="1434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25394000" />
+    <option name="totallyTimeSpent" value="26828000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1100,12 +1107,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.179402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.179402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1627907" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19604701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19604701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1147,20 +1154,23 @@
         <state relative-caret-position="280">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#377#378#0" expanded="false" />
+            <element signature="e#436#437#0" expanded="false" />
+            <element signature="e#490#491#0" expanded="false" />
+            <element signature="e#541#542#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/META-INF/jboss.xml">
-      <provider editor-type-id="com.intellij.javaee.oss.jboss.editor.JBossEjbRootProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.oss.jboss.editor.JBossEjbRootProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF">
@@ -1190,7 +1200,10 @@
         <state relative-caret-position="448">
           <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="false" />
+            <element signature="e#390#391#0" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#514#515#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1200,10 +1213,11 @@
         <state relative-caret-position="364">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="method#getUnAttendedExamIds#0;class#GradeDaoBean#0" expanded="true" />
-            <element signature="method#getAllGrades#0;class#GradeDaoBean#0" expanded="true" />
-            <marker date="1487351509775" expanded="true" signature="851:948" ph="select exam.... grade" />
-            <marker date="1487351509775" expanded="true" signature="1958:2031" ph="select * fro... grade" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#getUnAttendedExamIds#0;class#GradeDaoBean#0" expanded="false" />
+            <element signature="method#getAllGrades#0;class#GradeDaoBean#0" expanded="false" />
+            <marker date="1487730801108" expanded="true" signature="849:946" ph="select exam.... grade" />
+            <marker date="1487730801108" expanded="true" signature="1955:2028" ph="select * fro... grade" />
           </folding>
         </state>
       </provider>
@@ -1242,7 +1256,10 @@
         <state relative-caret-position="504">
           <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#377#378#0" expanded="false" />
+            <element signature="e#436#437#0" expanded="false" />
+            <element signature="e#490#491#0" expanded="false" />
+            <element signature="e#541#542#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1273,7 +1290,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="false" />
+            <element signature="e#390#391#0" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#514#515#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1283,10 +1303,11 @@
         <state relative-caret-position="364">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="method#getUnAttendedExamIds#0;class#GradeDaoBean#0" expanded="true" />
-            <element signature="method#getAllGrades#0;class#GradeDaoBean#0" expanded="true" />
-            <marker date="1487351509775" expanded="true" signature="851:948" ph="select exam.... grade" />
-            <marker date="1487351509775" expanded="true" signature="1958:2031" ph="select * fro... grade" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#getUnAttendedExamIds#0;class#GradeDaoBean#0" expanded="false" />
+            <element signature="method#getAllGrades#0;class#GradeDaoBean#0" expanded="false" />
+            <marker date="1487730801108" expanded="true" signature="849:946" ph="select exam.... grade" />
+            <marker date="1487730801108" expanded="true" signature="1955:2028" ph="select * fro... grade" />
           </folding>
         </state>
       </provider>
@@ -1331,25 +1352,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1365,10 +1368,11 @@
         <state relative-caret-position="364">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="method#getUnAttendedExamIds#0;class#GradeDaoBean#0" expanded="true" />
-            <element signature="method#getAllGrades#0;class#GradeDaoBean#0" expanded="true" />
-            <marker date="1487351509775" expanded="true" signature="851:948" ph="select exam.... grade" />
-            <marker date="1487351509775" expanded="true" signature="1958:2031" ph="select * fro... grade" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#getUnAttendedExamIds#0;class#GradeDaoBean#0" expanded="false" />
+            <element signature="method#getAllGrades#0;class#GradeDaoBean#0" expanded="false" />
+            <marker date="1487730801108" expanded="true" signature="849:946" ph="select exam.... grade" />
+            <marker date="1487730801108" expanded="true" signature="1955:2028" ph="select * fro... grade" />
           </folding>
         </state>
       </provider>
@@ -1396,14 +1400,7 @@
         <state relative-caret-position="252">
           <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1412,7 +1409,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#319#320#0" expanded="false" />
+            <element signature="e#344#345#0" expanded="false" />
+            <element signature="e#377#378#0" expanded="false" />
+            <element signature="e#405#406#0" expanded="false" />
+            <element signature="e#442#443#0" expanded="false" />
+            <element signature="e#475#476#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="false" />
+            <element signature="e#571#572#0" expanded="false" />
+            <element signature="e#609#610#0" expanded="false" />
+            <element signature="e#640#641#0" expanded="false" />
+            <element signature="e#691#692#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#767#768#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#843#844#0" expanded="false" />
+            <element signature="e#879#880#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1429,7 +1444,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#getConnection#0;class#DBUtil#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#DBUtil#0;class#DBUtil#0" expanded="false" />
+            <element signature="method#getDBUtilInstance#0;class#DBUtil#0" expanded="false" />
+            <element signature="method#closeAll#0;class#DBUtil#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1458,18 +1476,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/GradeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/StudentDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1484,28 +1494,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/GradeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/StudentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/GradeServiceBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1515,7 +1509,10 @@
         <state relative-caret-position="336">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="false" />
+            <element signature="e#390#391#0" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#514#515#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1524,25 +1521,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1551,14 +1530,7 @@
         <state relative-caret-position="336">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1567,29 +1539,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/GradeDaoBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1031">
-          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
           <folding>
-            <element signature="method#getUnAttendedExamIds#0;class#GradeDaoBean#0" expanded="true" />
-            <element signature="method#getAllGrades#0;class#GradeDaoBean#0" expanded="true" />
-            <marker date="1487351509775" expanded="true" signature="851:948" ph="select exam.... grade" />
-            <marker date="1487351509775" expanded="true" signature="1958:2031" ph="select * fro... grade" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/DBUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="42" column="71" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
-          <folding>
-            <element signature="method#getConnection#0;class#DBUtil#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#319#320#0" expanded="false" />
+            <element signature="e#344#345#0" expanded="false" />
+            <element signature="e#377#378#0" expanded="false" />
+            <element signature="e#405#406#0" expanded="false" />
+            <element signature="e#442#443#0" expanded="false" />
+            <element signature="e#475#476#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="false" />
+            <element signature="e#571#572#0" expanded="false" />
+            <element signature="e#609#610#0" expanded="false" />
+            <element signature="e#640#641#0" expanded="false" />
+            <element signature="e#691#692#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#767#768#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#843#844#0" expanded="false" />
+            <element signature="e#879#880#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1603,13 +1570,73 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/META-INF/jboss.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="com.intellij.javaee.oss.jboss.editor.JBossEjbRootProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/GradeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="252">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/GradeDaoBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#getUnAttendedExamIds#0;class#GradeDaoBean#0" expanded="false" />
+            <element signature="method#getAllGrades#0;class#GradeDaoBean#0" expanded="false" />
+            <marker date="1487730801108" expanded="true" signature="849:946" ph="select exam.... grade" />
+            <marker date="1487730801108" expanded="true" signature="1955:2028" ph="select * fro... grade" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/GradeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/GradeServiceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="e#377#378#0" expanded="false" />
+            <element signature="e#436#437#0" expanded="false" />
+            <element signature="e#490#491#0" expanded="false" />
+            <element signature="e#541#542#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/DBUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#DBUtil#0;class#DBUtil#0" expanded="false" />
+            <element signature="method#getDBUtilInstance#0;class#DBUtil#0" expanded="false" />
+            <element signature="method#closeAll#0;class#DBUtil#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

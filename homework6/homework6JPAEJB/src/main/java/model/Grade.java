@@ -17,7 +17,6 @@ public class Grade  implements Serializable {
     public int getStudentId() {
         return studentId;
     }
-
     public void setStudentId(int studentId) {
         this.studentId = studentId;
     }
@@ -27,7 +26,6 @@ public class Grade  implements Serializable {
     public Integer getScore() {
         return score;
     }
-
     public void setScore(Integer score) {
         this.score = score;
     }
@@ -44,7 +42,6 @@ public class Grade  implements Serializable {
 
         return true;
     }
-
     @Override
     public int hashCode() {
         int result = studentId;
@@ -57,7 +54,6 @@ public class Grade  implements Serializable {
     public Exam getExam() {
         return exam;
     }
-
     public void setExam(Exam exam) {
         this.exam = exam;
     }

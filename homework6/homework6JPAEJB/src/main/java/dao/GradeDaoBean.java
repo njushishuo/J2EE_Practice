@@ -24,21 +24,19 @@ public class GradeDaoBean implements GradeDao {
      * @param stdId
      * @return
      */
-
     public List<Exam> getUnAttendedExamIds(int stdId){
 
-        Query query = em.createQuery("select e from Grade g,Exam e where  g.studentId=?1 and g.score is NULL and e.id = g.exam.id");
+        Query query = em.createQuery
+                ("select e from Grade g,Exam e where g.studentId=?1 and g.score is NULL and e.id = g.exam.id");
         query.setParameter(1,stdId);
         List examList = query.getResultList();
         return examList;
 
     }
 
-
-
     public List<Grade> getAllGrades(int stdId){
 
-        Query query = em.createQuery("select g from Grade g  where  g.studentId=?1");
+        Query query = em.createQuery("select g from  Grade g   where  g.studentId=?1");
         query.setParameter(1,stdId);
         List gradeList= query.getResultList();
         return gradeList;

@@ -4,11 +4,7 @@
        xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
-    <context:property-placeholder location="classpath:/META-INF/properties/hibernate.properties" />
-
-
     <context:component-scan base-package="service"/>
-    <context:component-scan base-package="servlets"/>
     <context:component-scan base-package="dao"/>
 
     <!-- 配置dataSource -->
@@ -21,10 +17,6 @@
 
     <bean id = "GradeService" class="service.impl.GradeServiceImpl"/>
     <bean id = "StudentService" class="service.impl.StudentServiceImpl"/>
-
-
-
-
 
     <!-- 配置sessionFactory -->
     <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">

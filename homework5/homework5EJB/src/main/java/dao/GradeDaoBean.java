@@ -18,8 +18,6 @@ import java.util.List;
 @Stateless
 public class GradeDaoBean implements GradeDao {
 
-
-
     private static DBUtil dbUtil =DBUtil.getDBUtilInstance();
 
     /**
@@ -59,7 +57,6 @@ public class GradeDaoBean implements GradeDao {
         dbUtil.closeAll(result,stmt,connection);
         return arrayList;
     }
-
 
 
     public List<Grade> getAllGrades(int stdId){
