@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+
+    <package name="default" extends="struts-default">
+
+        <action name="LoginInputAction" class="action.LoginInputAction">
+            <result name="success">/jsp/login.jsp</result>
+        </action>
+
+        <action name="LoginPostAction" class="action.LoginPostAction">
+            <result name="error" >/jsp/error.jsp</result>
+            <result name="success" type="redirectAction">
+                <param name="actionName">GradeAction</param>
+            </result>
+        </action>
+
+        <action name="GradeAction" class="action.GradeAction">
+            <result name="warning" >/jsp/warning.jsp</result>
+            <result name="success" >/jsp/exams.jsp</result>
+        </action>
+
+        <action name="VisitorAction" class="action.VisitorAction">
+            <result name="success" >/jsp/visitor.jsp</result>
+        </action>
+    </package>
+
+
+</struts>
